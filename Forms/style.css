@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.heading {
-  margin: 0;
-}
 .form {
   width: 80%;
   margin: 80px auto;
@@ -25,8 +22,12 @@
 }
 .title {
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
-
+.sub-title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
 .btn {
   text-transform: uppercase;
   text-decoration: none;
@@ -91,4 +92,35 @@
 .input::placeholder {
   font-size: 12px;
   text-transform: uppercase;
+}
+.form-company_info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 40px 80px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.company-info {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.form-security_info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 40px 80px;
+  grid-template-columns: repeat(3, 1fr) 100px;
+  grid-gap: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.security-info {
+  grid-area: 1 / 1 / 2 / 5;
+}
+.pass-btn {
+  justify-self: center;
+  align-self: center;
+}
+.confirm-btn {
+  padding: 5px 10px;
+  color: white;
+  background-color: #16a085;
 }
