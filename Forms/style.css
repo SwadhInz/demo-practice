@@ -1,0 +1,41 @@
+.wrap {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  width: 1000px;
+  margin: 80px auto;
+  background-color: #eee;
+  padding: 10px 20px;
+  font-family: sans-serif;
+}
+.form-header {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.header-title {
+  display: inline-block;
+  text-align: left;
+}
+.title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.header-btn {
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 45px;
+  padding: 10px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+}
+.save-btn {
+  color: white;
+  background-color: #16a085;
+}
