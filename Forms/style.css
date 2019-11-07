@@ -124,3 +124,17 @@
   color: white;
   background-color: #16a085;
 }
+.deactivate-account {
+  margin-top: 10px;
+}
+.deactivate-title {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.deactivate-paragraph {
+  margin-top: 5px;
+  padding: 5px;
+}
+.deactivate-link {
+  text-decoration: none;
+}
